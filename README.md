@@ -1,0 +1,1 @@
+# Sparse-convolution-based-6D-pose-estimation-for-robotic-bin-picking-with-point-clouds
