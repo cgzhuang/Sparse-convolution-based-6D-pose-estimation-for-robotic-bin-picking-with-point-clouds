@@ -1,18 +1,25 @@
-Sparse Convolution Based 6D Pose Estimation for Robotic Bin-Picking with Point Clouds
-Overview
+# Sparse Convolution Based 6D Pose Estimation for Robotic Bin-Picking with Point Clouds
+
+## Overview
+
 This repository contains the code and documentation for our research on sparse convolution-based 6D pose estimation for robotic bin-picking using point clouds. Our method significantly enhances the accuracy and efficiency of pose estimation in scenarios involving stacked objects.
 
-Key Contributions
-Two-Stage Deep Learning Framework: A comprehensive framework based on sparse convolution and point clouds is proposed, significantly improving pose estimation accuracy and efficiency. The first stage involves instance segmentation and initial pose estimation, while the second stage focuses on pose refinement.
+## Key Contributions
 
-Efficient Dataset Generation and Labeling Method: Utilizing OpenGL for real-time rendering and PhysX for realistic physical simulations, we developed a method that enables rapid creation of large-scale, high-quality synthetic datasets. This method supports the generation of diverse and complex data tailored to various industrial objects and bin-picking scenarios.
+1. **Two-Stage Deep Learning Framework:** A comprehensive framework based on sparse convolution and point clouds is proposed, significantly improving pose estimation accuracy and efficiency. The first stage involves instance segmentation and initial pose estimation, while the second stage focuses on pose refinement.
+   
+2. **Efficient Dataset Generation and Labeling Method:** Utilizing OpenGL for real-time rendering and PhysX for realistic physical simulations, we developed a method that enables rapid creation of large-scale, high-quality synthetic datasets. This method supports the generation of diverse and complex data tailored to various industrial objects and bin-picking scenarios.
+   
+3. **Pose Refinement Network:** A dedicated network is introduced to accurately predict transformations between point clouds based on initial poses. This network extracts detailed spatial features using a 3D U-Net architecture and employs an attention mechanism to highlight critical features, resulting in highly accurate pose adjustments.
 
-Pose Refinement Network: A dedicated network is introduced to accurately predict transformations between point clouds based on initial poses. This network extracts detailed spatial features using a 3D U-Net architecture and employs an attention mechanism to highlight critical features, resulting in highly accurate pose adjustments.
+## Video Demonstration
 
-Video Demonstration
 A video demonstrating our work can be found at the link below:
 
-Watch the video demonstration
+https://drive.google.com/file/d/1IwzTgrB2asHrE-xx8DkGoxQhN9yXViGM/view?usp=sharing
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+
