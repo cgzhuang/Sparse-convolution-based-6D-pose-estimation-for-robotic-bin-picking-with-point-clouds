@@ -22,6 +22,8 @@ https://drive.google.com/file/d/1IwzTgrB2asHrE-xx8DkGoxQhN9yXViGM/view?usp=shari
 
 https://drive.google.com/file/d/1dQaR7mqd__zJdzbeiev0W39tysSjv3-u/view?usp=sharing
 
+If you need the network structure or more detailed code, please feel free to contact us at nwh1093412390@sjtu.edu.cn
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
